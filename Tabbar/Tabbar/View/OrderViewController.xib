@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrderViewController" customModule="Tabbar" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I2f-e5-Yp9">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a81-qA-ei5">
+                            <rect key="frame" x="0.0" y="20" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="1hH-Qu-3mk"/>
+                            </constraints>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFo-0J-XKc">
+                            <rect key="frame" x="49" y="31.5" width="277" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.51764705879999995" green="0.14117647059999999" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="XFo-0J-XKc" firstAttribute="centerY" secondItem="a81-qA-ei5" secondAttribute="centerY" id="1CG-1Z-fQc"/>
+                        <constraint firstItem="a81-qA-ei5" firstAttribute="top" secondItem="I2f-e5-Yp9" secondAttribute="top" constant="20" id="5sY-d4-o5k"/>
+                        <constraint firstAttribute="height" constant="64" id="A02-9O-6jN"/>
+                        <constraint firstAttribute="bottom" secondItem="a81-qA-ei5" secondAttribute="bottom" id="Pjf-Mn-r2I"/>
+                        <constraint firstItem="a81-qA-ei5" firstAttribute="leading" secondItem="I2f-e5-Yp9" secondAttribute="leading" id="dNX-GO-53C"/>
+                        <constraint firstAttribute="trailing" secondItem="XFo-0J-XKc" secondAttribute="trailing" constant="49" id="hnq-qi-SC7"/>
+                        <constraint firstItem="XFo-0J-XKc" firstAttribute="leading" secondItem="a81-qA-ei5" secondAttribute="trailing" constant="5" id="lBe-ox-xG6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="I2f-e5-Yp9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4kV-tQ-xSJ"/>
+                <constraint firstItem="I2f-e5-Yp9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aVx-nJ-59F"/>
+                <constraint firstAttribute="trailing" secondItem="I2f-e5-Yp9" secondAttribute="trailing" id="uuv-NB-YiB"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

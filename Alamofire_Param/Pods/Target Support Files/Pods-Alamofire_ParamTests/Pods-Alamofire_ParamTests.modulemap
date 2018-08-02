@@ -1,0 +1,6 @@
+framework module Pods_Alamofire_ParamTests {
+  umbrella header "Pods-Alamofire_ParamTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
